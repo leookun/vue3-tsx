@@ -4,6 +4,9 @@
   "modulename": "Vue3TSX",
   "main": "./dist/index.es.js",
   "type": "module",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/leookun/vue3-tsx.git"
