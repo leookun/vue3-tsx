@@ -4,6 +4,10 @@
   "modulename": "Vue3TSX",
   "main": "./dist/index.es.js",
   "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/leookun/vue3-tsx.git"
+  },
   "scripts": {
     "build": "unmono build",
     "dev": "unmono dev"
