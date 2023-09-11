@@ -1,0 +1,31 @@
+{
+  "name": "vue3-tsx",
+  "version": "0.0.2",
+  "modulename": "Vue3TSX",
+  "main": "./dist/index.es.js",
+  "type": "module",
+  "scripts": {
+    "build": "unmono build",
+    "dev": "unmono dev"
+  },
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.es.js",
+      "require": "./dist/index.cjs.js"
+    }
+  },
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "@types/ramda": "^0.29.3",
+    "ramda": "^0.29.0",
+    "vue": "^3.3.4",
+    "unmono": "^0.0.5"
+  },
+  "peerDependencies": {
+    "vue": "^3.3.4"
+  }
+}
